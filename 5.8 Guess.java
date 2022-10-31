@@ -8,7 +8,7 @@ public class Guess {
         System.out.println("I chose a number between 1 and 5. Try to guess it: ");
         System.out.print("Your Guess:");
         int userNumber = scan.nextInt();
-        while (!(userNumber == compNumber)) {
+        while (userNumber != compNumber) {
             System.out.println("Guess again");
             userNumber = scan.nextInt();
         }
