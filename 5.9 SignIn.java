@@ -13,9 +13,9 @@ public class SignIn {
         while (!(username.equals(enteredUserName))||!(password.equals(enteredPassword))){
             System.out.println("\nIncorrect, please try again!\n");
             System.out.print("• Username: ");
-            enteredPassword = scan.next();
-            System.out.print("• Password: ");
             enteredUserName = scan.next();
+            System.out.print("• Password: ");
+            enteredPassword = scan.next();
         }
         System.out.println("\nSign in succesful. Welcome!");
         scan.close();
